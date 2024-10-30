@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV File Upload</title>
+</head>
+<body>
+  
+  {{#if noChampsIds.length}}
+  <p>ChampsId not found for below Order ID's</p>
+    <table border="1">
+          <thead>
+              <th>Order ID</th>
+              <th>Order Date</th>
+              <th>Resturant Id</th>
+              <th>Franchise</th>
+              <th>Order City</th>
+          </thead>
+          <tbody>
+              {{#each noChampsIds}}
+                  <tr>
+                      <td>{{orderId}}</td>
+                      <td>{{OrderCreateDate}}</td>
+                      <td>{{swiggy_restaurant_id}}</td>
+                      <td>{{Store_Franchise}}</td>
+                      <td>{{Store_City}}</td>
+                  </tr>
+              {{/each}}
+          </tbody>
+      </table>
+  {{else}}
+
+    <p>Records has been updated successfullly.</p>
+    <span style="display:none">
+      <p>Https : {{apiResponse.meta.httpStatus}}</p>
+      <p>RequestId : {{apiResponse.meta.requestId}}</p>
+    </span>
+
+  {{/if}}    
+</body>
+</html>

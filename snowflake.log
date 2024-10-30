@@ -1,0 +1,16 @@
+{"level":"WARN","message":"[12:31:06.840 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:31:09.446 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:31:15.886 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:31:25.766 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:31:55.867 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:32:43.770 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:33:53.800 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:34:51.866 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:34:56.193 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"WARN","message":"[12:35:04.842 PM]: Socket is not authorized: SELF_SIGNED_CERT_IN_CHAIN"}
+{"level":"ERROR","message":"[1:42:49.747 PM]: Error issuing heartbeat call: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[5:03:13.647 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[9:28:45.386 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[12:31:49.705 AM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[8:46:51.311 AM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[11:35:33.526 AM]: Error issuing heartbeat call: Network error. Could not reach Snowflake."}
